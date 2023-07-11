@@ -4,7 +4,7 @@ project(ProtobufParser)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
-include_directories(SOURCE_DIR)
+include_directories(SOURCE_DIR) #possible error - add ${} ?
 
 add_subdirectory(test)
 enable_testing()
